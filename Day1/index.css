@@ -57,10 +57,10 @@ input{
     color: red;
 }
 
-h1~p{
+/* h1~p{
     color: blue;
 
-}
+} */
 
 #lower-div{
    display: grid;
@@ -87,3 +87,14 @@ h1~p{
     margin: 15px;
 
 }
+
+
+p:nth-child(even){
+    color: blue;
+
+}
+
+
+
+
+
