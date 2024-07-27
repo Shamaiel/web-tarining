@@ -19,8 +19,6 @@ e.preventDefault()
    console.log(userDetails);
    localStorage.setItem("users", JSON.stringify(userArr));
 
-
-
 })
 
 
@@ -46,6 +44,9 @@ document.getElementById("login-form").addEventListener("submit", function(e){
 
      }
     })
+
+
+    
     
 
 

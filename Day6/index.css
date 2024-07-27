@@ -1,3 +1,21 @@
 body{
-    background-color: black;
+    background-color: rgb(248, 239, 239);
+}
+
+#signup-div{
+    background-color: rgb(255, 157, 0);
+    width: 40%;
+    height: 200px;
+}
+input{
+    padding: 5px;
+    /* border-radius: 1px; */
+    margin-bottom: 2px;
+}
+
+#signup-div > form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
 }
